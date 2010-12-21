@@ -1,0 +1,101 @@
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	width:40em; 
+	margin:auto; 
+	padding:1em; 
+	color:black; 
+	font:1em 'Helvetica Neue', Arial, Verdana, sans-serif; 
+	line-height:1.4em; }
+
+a { color:black; font-weight:bold; 
+	text-decoration: none;}
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #000000;
+	}
+a:hover, a:active { 
+	text-decoration: underline; 
+	color: #000000;
+	}
+acronym {
+	border-bottom: none;
+	}
+
+/* specific divs */
+
+#header {text-align:left; 
+	margin-left:1.5em 0; 
+	font-size:1.3em;
+	}
+
+#nav {
+    margin-left:0em;
+    text-align:left;
+    font-size:0.8em;
+	display: none;
+}
+
+#nav a { padding: 0px 0px 0px 8px; }
+
+#about{
+	text-align:left;
+	font-size:0.8em;
+	margin-left:1em;
+}
+
+#header h1 { margin-bottom: 5px;}
+#header h3 { text-align:center; }
+#sometext { text-align:center; }
+#links { text-align:center; padding:1em; }
+#links a { font-size:1.5em; font-weight:bold; }
+#footer {text-align:center; font-size:0.8em;}
+#license {font-size:0.6em;}
+#galleria{height:400px;}
+
+
+#title {
+	font-size:1em;
+	margin-left: 1.5em:
+	color: #000000; 
+}
+
+#container { 
+	/* background: url(zen-bg.jpg) no-repeat top left; */
+	padding: 0 75px 0 40px;  
+	margin: 0; 
+	position: relative;
+	
+	}
+	
+#tweet {
+	width: 572px;
+	margin-left:5px;
+	margin-top:7px;
+	margin-bottom:7px;
+	border:3px;
+	padding:3px;
+	background: #ddddee;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	-moz-box-shadow: 3px 3px 4px #000;
+}
+
+#replytext {
+	width: 532px;
+	margin:3px;
+	border:3px;
+	padding:3px;
+	background: #aaaaee;
+/*	-webkit-box-shadow: 3px 3px 4px #000;*/
+/*	-moz-box-shadow: 3px 3px 4px #000;*/
+}
+
+#tweet_text {
+
+}
+
